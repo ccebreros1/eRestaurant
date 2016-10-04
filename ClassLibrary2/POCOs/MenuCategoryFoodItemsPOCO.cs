@@ -13,7 +13,7 @@ namespace eRestaurantSystem.Data.POCOs
         public string MenuCategoryDescription { get; set; }
 		public int ItemID { get; set;}
 		public string FoodDescription { get; set; }
-		public double CurrentPrice { get; set; }
+		public decimal CurrentPrice { get; set; }
 		public int TimesServed { get; set; }
     }
 }

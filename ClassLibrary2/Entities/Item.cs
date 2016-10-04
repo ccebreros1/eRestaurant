@@ -25,5 +25,7 @@ namespace eRestaurantSystem.Data.Entities
         public int Calories { get; set; }
         public string Comment { get; set; }
         public int MenuCategoryID { get; set; }
+
+        public virtual MenuCategory MenuCategory { get; set; }
     }
 }
