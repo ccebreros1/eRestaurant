@@ -49,14 +49,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTOs\MenuCategoryFoodItemsDTO.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\MenuCategory.cs" />
+    <Compile Include="POCOs\FoodItemCount.cs" />
+    <Compile Include="POCOs\MenuCategoryFoodItemsPOCO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DTOs\" />
-    <Folder Include="POCOs\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
