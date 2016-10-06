@@ -29,7 +29,7 @@
             <h3><%# Eval("MenuCategoryDescription") %></h3>
             <asp:ListView ID="ListViewRepeater" runat="server" DataSource='<%# Eval("FoodItems") %>'>
                 <ItemTemplate>
-                    <tr style="background-color: #DCDCDC; color: #000000; width:auto">
+                    <tr style="background-color: #DCDCDC; color: #000000;" class="table table-hover">
                         <td>
                             <asp:Label Text='<%# Eval("ItemID") %>' runat="server" ID="ItemIDLabel" /></td>
                         <td>
