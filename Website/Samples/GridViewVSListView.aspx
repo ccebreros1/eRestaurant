@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="GridViewVSListView.aspx.cs" Inherits="Samples_GridViewVSListView" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
+    <h1>POCOS</h1>
     <h2>GridView POCO</h2>
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="GridviewODS" AllowPaging="True">
         <Columns>
